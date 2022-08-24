@@ -39,7 +39,7 @@ public class Searchimg_A_SingleLinkedList_Iterative {
         head.next=new Node(20);
         head.next.next=new Node(30);
         printlist(head);   //10 20 30
-        System.out.println(search(head,20));
+        System.out.println(search(head,20)); // 2
 
 }
 }
